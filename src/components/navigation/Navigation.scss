@@ -1,0 +1,26 @@
+.main-nav {
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #ccc;
+    }
+
+    div {
+        margin-bottom: 10px;
+    }
+
+    .site-title {
+        text-transform: uppercase;
+        font-size: 42px;
+        font-weight: 700;
+    }
+
+    .page-links {
+        text-transform: uppercase;
+        font-size: 24px;
+        font-weight: 400;
+    }
+}
