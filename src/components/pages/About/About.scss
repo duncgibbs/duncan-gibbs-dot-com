@@ -1,0 +1,41 @@
+.about-container {
+    .section.about {
+        p {
+            margin-bottom: 5px;
+            margin-top: 5px;
+        }
+        
+        .things-list {
+            margin-top: 25px;
+            margin-bottom: 25px;
+        }
+    }
+
+    .section.contact {
+        display: inline-flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+
+        h1 {
+            display: inline-block;
+            flex: 0 0 100%;
+        }
+
+        .form {
+            display: inline-block;
+            text-align: center;
+
+            h2 {
+                font-weight: 300;
+            }
+
+            a {
+                color: #fff;
+            }
+        
+            a:hover {
+                color: #ccc;
+            }
+        }
+    }
+}

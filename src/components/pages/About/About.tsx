@@ -2,6 +2,8 @@ import React from 'react';
 
 import Navigation from '../../navigation/Navigation';
 
+import './About.scss';
+
 export default function About() {
     const randomThingsList = (): string[] => {
         let thingsIDo = [
@@ -32,7 +34,7 @@ export default function About() {
                 <p>
                     Honestly, as I type this out, I regret even making an "About" section. Here is a list of things I like doing - that this site contains, anyway - in a literally randomly ordered list:
                 </p>
-                <p>
+                <p className='things-list'>
                     {randomThingsList().join(" ")}
                 </p>
                 <p>
