@@ -24,13 +24,13 @@ export default function Games() {
 
     const renderGamesForType = (type: string) => {
         return (
-            <div className='type-section'>
+            <div className='type-section' key={type}>
                 <div className='type-name'><span>{type}</span></div>
                 {games.map(game => {
                     if (game.type === type) {
                         return (
-                            <div className='game'>
-                                <a onClick={() => {setSelectedGame(game)}}>{game.name}</a>
+                            <div className='game' key={game.id}>
+                                <a className='text-link' onClick={() => {setSelectedGame(game)}}>{game.name}</a>
                             </div>
                         );
                     } else {
@@ -51,5 +51,5 @@ export default function Games() {
                 <GameDetail game={selectedGame} />
             </div>
         </div>
-    )
+    );
 }

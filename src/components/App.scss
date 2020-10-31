@@ -1,6 +1,19 @@
 body {
     background-color: #3B3F45;
 
+    a.text-link {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    a.text-link:hover {
+        color: #ccc;
+    }
+
+    a.obvious-link {
+        text-decoration: underline;
+    }
+
     #container {
         font-family: 'Jost';
         font-style: normal;

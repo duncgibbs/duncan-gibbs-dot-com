@@ -47,7 +47,7 @@ export default function About() {
                 <div className='form'>
                     <h2>Email</h2>
                     <p>
-                        <a target="_blank" href="mailto:duncgibbs@gmail.com">
+                        <a className='text-link obvious-link' target="_blank" href="mailto:duncgibbs@gmail.com">
                             duncgibbs@gmail.com
                         </a>
                     </p>
@@ -55,7 +55,7 @@ export default function About() {
                 <div className='form'>
                     <h2>Twitter</h2>
                     <p>
-                        <a target="_blank" href="https://twitter.com/duncgibbs">
+                        <a className='text-link  obvious-link' target="_blank" href="https://twitter.com/duncgibbs">
                             @duncgibbs
                         </a>
                     </p>
@@ -63,7 +63,7 @@ export default function About() {
                 <div className='form'>
                     <h2>LinkedIn</h2>
                     <p>
-                        <a target="_blank" href="https://www.linkedin.com/in/duncan-gibbs-resume">
+                        <a className='text-link  obvious-link' target="_blank" href="https://www.linkedin.com/in/duncan-gibbs-resume">
                             https://www.linkedin.com/in/duncan-gibbs-resume
                         </a>
                     </p>

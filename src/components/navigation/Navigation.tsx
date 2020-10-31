@@ -13,12 +13,13 @@ export default function Navigation({
     return (
         <div className='main-nav'>
             <div className='site-title'>
-                <NavLink to="/">Duncan Gibbs</NavLink>
+                <NavLink className='text-link' to="/">Duncan Gibbs</NavLink>
             </div>
             <ul className='page-links' hidden={condensed}>
-                <li><NavLink to="/about">About</NavLink></li>
-                <li><NavLink to="/writing">Writing</NavLink></li>
-                <li><NavLink to="/games">Games</NavLink></li>
+                <li><NavLink className='text-link' to="/about">About</NavLink></li>
+                <li><NavLink className='text-link' to="/writing">Writing</NavLink></li>
+                <li><NavLink className='text-link' to="/games">Games</NavLink></li>
+                <li><NavLink className='text-link' to="/podcasts">Podcasts</NavLink></li>
             </ul>
         </div>
     );

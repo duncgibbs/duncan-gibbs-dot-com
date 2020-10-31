@@ -24,7 +24,7 @@ export default function Writing({
                 <hr />,
                 <div className='post'>
                     <div className='title'>
-                        <Link to={`${match.path}/${post.id}`}>{post.title}</Link>
+                        <Link className='text-link' to={`${match.path}/${post.id}`}>{post.title}</Link>
                     </div>
                     <div className='date'>
                         <span className='prefix'>Date:</span>

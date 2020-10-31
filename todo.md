@@ -2,7 +2,7 @@
 
 ## Sections
 
-MVP
+### MVP
 
 - [x] About
 - [x] Games
@@ -13,7 +13,7 @@ MVP
 - [ ] Code
     - [ ] Github Like
 
-Bonus.
+### Bonus
 
 - [ ] Writing
     - [x] Jupyter Notebooks

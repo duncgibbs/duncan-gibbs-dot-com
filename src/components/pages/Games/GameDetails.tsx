@@ -22,7 +22,7 @@ export default function GameDetail({
                     {game.description.split('\n').map(line => <p>{line}</p>)}
                 </div>
                 <div className='download'>
-                    <a href={game.file} download >Download PDF</a>
+                    <a className='text-link' href={game.file} download >Download PDF</a>
                 </div>
             </div>
         );

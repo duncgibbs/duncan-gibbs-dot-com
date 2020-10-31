@@ -22,7 +22,7 @@ export default function Back({
 }: BackProps) {
     return (      
         <div className='back-nav'>
-            <Link to={destination}>{prefix}{text}</Link>
+            <Link className='text-link' to={destination}>{prefix}{text}</Link>
         </div>
     );
 }
