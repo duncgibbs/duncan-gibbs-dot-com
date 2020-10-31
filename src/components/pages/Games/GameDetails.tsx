@@ -19,7 +19,7 @@ export default function GameDetail({
                     {game.name}
                 </div>
                 <div className='description'>
-                    {game.description.split('\n').map(line => <p>{line}</p>)}
+                    {game.description.split('\n').map((line, idx) => <p key={idx}>{line}</p>)}
                 </div>
                 <div className='download'>
                     <a className='text-link' href={game.file} download >Download PDF</a>

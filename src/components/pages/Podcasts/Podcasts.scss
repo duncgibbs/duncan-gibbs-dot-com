@@ -1,0 +1,25 @@
+.podcasts-container {
+    .podcast-list {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+        .podcast {
+            text-align: center;
+            border: 1px solid #3B3F45;
+            padding: 5px 20px;
+            max-width: 400px;
+
+            .logo img {
+                width: 75px;
+            }
+        }
+
+        .podcast:hover {
+            border: 1px solid #44484f;
+            background-color: #44484f;
+        }
+    }
+}
