@@ -1,8 +1,8 @@
 {
   "extends": [
-    "wesbos",
     "plugin:@typescript-eslint/eslint-recommended",
-    "plugin:@typescript-eslint/recommended"
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react/recommended"
   ],
   "globals": {
     "chrome": true
@@ -12,6 +12,7 @@
     "react/prop-types": 0,
     "react/destructuring-assignment": 0,
     "no-plusplus": 0,
+    "eol-last": 0,
     "react/jsx-filename-extension": 0,
     "@typescript-eslint/no-explicit-any": 0,
     "@typescript-eslint/explicit-function-return-type": 0,
@@ -23,9 +24,13 @@
     },
     "import/resolver": {
       "node": {
-        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+        "extensions": [".ts", ".tsx"]
       }
-    }
+    },
+    "import/ignore": [".css$", ".scss$", "node_modules/*"],
+    "react": {
+        "version": "latest",
+    },
   },
   "parser": "@typescript-eslint/parser",
   "plugins": [

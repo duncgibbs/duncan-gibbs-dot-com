@@ -8,9 +8,9 @@ import posts from './posts.json';
 import './Writing.scss';
 
 type WritingProps = {
-    match: Record<string, any>,
-    location: Record<string, any>,
-    history?: Record<string, any>
+    match: Record<string, any>;
+    location: Record<string, any>;
+    history?: Record<string, any>;
 };
 
 export default function Writing({
@@ -18,17 +18,17 @@ export default function Writing({
     location
 }: WritingProps) {
     const renderPosts = () => {
-        return posts.map(post => {
-            const publish_date = new Date(post.publication_date);
+        return posts.map((post, idx) => {
+            const publishDate = new Date(post.publication_date);
             return [
-                <hr />,
-                <div className='post'>
+                <hr key={idx} />,
+                <div className='post' key={idx}>
                     <div className='title'>
                         <Link className='text-link' to={`${match.path}/${post.id}`}>{post.title}</Link>
                     </div>
                     <div className='date'>
                         <span className='prefix'>Date:</span>
-                        {publish_date.toISOString().slice(0,10)}
+                        {publishDate.toISOString().slice(0,10)}
                     </div>
                     <div className='description'>
                         <span className='prefix'>Description:</span>

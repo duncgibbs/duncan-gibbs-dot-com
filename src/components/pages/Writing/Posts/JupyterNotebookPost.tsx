@@ -12,7 +12,7 @@ type JupyterNotebookPostProps = {
 export default function JupyterNotebookPost({
     filePath
 }: JupyterNotebookPostProps) {
-    const [postHtml, setPostHtml] = useState('<div class="lds-ring"><div></div><div></div><div></div><div></div></div>');
+    const [postHtml, setPostHtml] = useState('<div class=\'lds-ring\'><div></div><div></div><div></div><div></div></div>');
     const [loading, setLoading] = useState(true);
     const [scrollTop, setScrollTop] = useState(0);
 
@@ -20,9 +20,9 @@ export default function JupyterNotebookPost({
         const onScroll = () => {
             setScrollTop(window.scrollY);
         };
-        window.addEventListener("scroll", onScroll);
+        window.addEventListener('scroll', onScroll);
 
-        return () => window.removeEventListener("scroll", onScroll);
+        return () => window.removeEventListener('scroll', onScroll);
     }, [scrollTop]);
 
     fetch(filePath)

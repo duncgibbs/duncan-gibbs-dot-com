@@ -6,7 +6,7 @@ import './About.scss'
 
 export default function About() {
     const randomThingsList = (): string[] => {
-        let thingsIDo = [
+        const thingsIDo = [
             'I program things.',
             'I write.',
             'I take pictures.',
@@ -33,10 +33,10 @@ export default function About() {
                     Hello. My name is Duncan Gibbs. I have no idea how you stumbled onto this site, and even less of an idea why you would read its About page, but welcome.
                 </p>
                 <p>
-                    Honestly, as I type this out, I regret even making an "About" section. Here is a list of things I like doing - that this site contains, anyway - in a literally randomly ordered list:
+                    Honestly, as I type this out, I regret even making an About section. Here is a list of things I like doing - that this site contains, anyway - in a literally randomly ordered list:
                 </p>
                 <p className='things-list'>
-                    {randomThingsList().join(" ")}
+                    {randomThingsList().join(' ')}
                 </p>
                 <p>
                     Mic drop?
@@ -47,7 +47,12 @@ export default function About() {
                 <div className='form'>
                     <h2>Email</h2>
                     <p>
-                        <a className='text-link obvious-link' target="_blank" href="mailto:duncgibbs@gmail.com">
+                        <a
+                            className='text-link obvious-link'
+                            target='_blank'
+                            href='mailto:duncgibbs@gmail.com'
+                            rel='noopener noreferrer'
+                        >
                             duncgibbs@gmail.com
                         </a>
                     </p>
@@ -55,7 +60,12 @@ export default function About() {
                 <div className='form'>
                     <h2>Twitter</h2>
                     <p>
-                        <a className='text-link  obvious-link' target="_blank" href="https://twitter.com/duncgibbs">
+                        <a
+                            className='text-link obvious-link'
+                            target='_blank'
+                            href='https://twitter.com/duncgibbs'
+                            rel='noopener noreferrer'
+                        >
                             @duncgibbs
                         </a>
                     </p>
@@ -63,7 +73,12 @@ export default function About() {
                 <div className='form'>
                     <h2>LinkedIn</h2>
                     <p>
-                        <a className='text-link  obvious-link' target="_blank" href="https://www.linkedin.com/in/duncan-gibbs-resume">
+                        <a
+                            className='text-link obvious-link'
+                            target='_blank'
+                            href='https://www.linkedin.com/in/duncan-gibbs-resume'
+                            rel='noopener noreferrer'
+                        >
                             https://www.linkedin.com/in/duncan-gibbs-resume
                         </a>
                     </p>

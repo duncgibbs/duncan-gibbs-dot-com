@@ -6,6 +6,7 @@ export default function Code() {
         <a
             href='https://github.com/duncgibbs'
             target='_blank'
+            rel='noopener noreferrer'
             className='text-link'
             onMouseEnter={() => {setWord('GitHub')}}
             onMouseLeave={() => {setWord('Code')}}

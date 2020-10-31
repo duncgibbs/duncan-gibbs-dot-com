@@ -12,6 +12,7 @@ export default function Podcasts() {
                 <a
                     href={podcast.link}
                     target='_blank'
+                    rel='noopener noreferrer'
                     className='text-link podcast'
                     key={podcast.id}
                 >
