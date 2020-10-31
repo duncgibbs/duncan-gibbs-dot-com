@@ -10,7 +10,8 @@ export default function About() {
             'I program things.',
             'I write.',
             'I take pictures.',
-            'I make games.'
+            'I make games.',
+            'I record podcasts.'
         ];
 
         for (let i = thingsIDo.length - 1; i > 0; i--) {
