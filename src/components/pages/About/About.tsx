@@ -2,7 +2,7 @@ import React from 'react';
 
 import Navigation from '../../navigation/Navigation';
 
-import './About.scss';
+import './About.scss'
 
 export default function About() {
     const randomThingsList = (): string[] => {

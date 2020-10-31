@@ -1,0 +1,36 @@
+.writing-container {
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #ccc;
+    }
+
+    hr {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .post {
+        div {
+            margin-bottom: 5px;
+        }
+
+        .title {
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        .description {
+            font-style: italic;
+        }
+
+        .prefix {
+            font-style: normal;
+            font-weight: 400;
+            margin-right: 5px;
+        }
+    }
+}

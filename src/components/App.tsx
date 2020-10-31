@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import Home from './pages/Home/Home';
 import About from './pages/About/About';
+import Writing from './pages/Writing/Writing';
 
 import './App.scss';
 
@@ -11,8 +12,9 @@ export default function App() {
         <BrowserRouter>
             <div>
                 <Switch>
-                    <Route path="/" component={Home} exact/>
-                    <Route path="/about" component={About}/>
+                    <Route path='/' component={Home} exact />
+                    <Route path='/about' component={About} />
+                    <Route path={['/writing', '/posts']} render={Writing} />
                 </Switch>
             </div> 
       </BrowserRouter>

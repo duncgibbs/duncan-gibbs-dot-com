@@ -15,9 +15,10 @@ export default function Navigation({
             <div className='site-title'>
                 <NavLink to="/">Duncan Gibbs</NavLink>
             </div>
-            <div className='page-links' hidden={condensed}>
-                <NavLink to="/about">About</NavLink>
-            </div>
+            <ul className='page-links' hidden={condensed}>
+                <li><NavLink to="/about">About</NavLink></li>
+                <li><NavLink to="/writing">Writing</NavLink></li>
+            </ul>
         </div>
     );
 }
