@@ -6,6 +6,7 @@ import About from './pages/About/About';
 import Writing from './pages/Writing/Writing';
 import Games from './pages/Games/Games';
 import Podcasts from './pages/Podcasts/Podcasts';
+import Photography from './pages/Photography/Photography';
 
 import './App.scss';
 
@@ -19,6 +20,7 @@ export default function App() {
                     <Route path={['/writing', '/posts']} render={Writing} />
                     <Route path='/games' component={Games} />
                     <Route path='/podcasts' component={Podcasts} />
+                    <Route path={['/photos', '/photography']} component={Photography} />
                 </Switch>
             </div> 
       </BrowserRouter>

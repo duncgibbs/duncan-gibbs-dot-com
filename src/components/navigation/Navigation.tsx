@@ -22,6 +22,7 @@ export default function Navigation({
                 <li><NavLink className='text-link' to="/games">Games</NavLink></li>
                 <li><NavLink className='text-link' to="/podcasts">Podcasts</NavLink></li>
                 <li><Code /></li>
+                <li><NavLink className='text-link' to="/photos">Photography</NavLink></li>
             </ul>
         </div>
     );
