@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import Code from '../pages/Code/Code';
 
 import './Navigation.scss';
 
@@ -20,6 +21,7 @@ export default function Navigation({
                 <li><NavLink className='text-link' to="/writing">Writing</NavLink></li>
                 <li><NavLink className='text-link' to="/games">Games</NavLink></li>
                 <li><NavLink className='text-link' to="/podcasts">Podcasts</NavLink></li>
+                <li><Code /></li>
             </ul>
         </div>
     );
