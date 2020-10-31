@@ -1,0 +1,18 @@
+[
+    {
+        "id": "rival-wizards",
+        "name": "Rival Wizards",
+        "description": "Rival Wizards is a micro-RPG about being a wizard and doing wizard things. No prep or GM necessary. Just some decks of cards and the slightest bit too much imagination. You and your friends slash dogs will take turns coming up with challenges and then casting overly elaborate spells to overcome them.\nInspired heavily by Shooting the Moon, Wushu, and Dungeon Janitor's Apprentice. I wish I was better both at naming games and graphic design. But enjoy.",
+        "file": "/pdfs/RivalWizards.pdf",
+        "logo": "/logos/rival-wizards.png",
+        "type": "TTRPG"
+    },
+    {
+        "id": "unphrased",
+        "name": "Unphrased",
+        "description": "Oh man. If you think that pun is bad, you should have seen the working titles for the game. Highlights include \"Equil-idiom,\" \"Set Phrasers to Stun,\" and \"Phrase the Roof.\"\nUnphrased is a small, text message based RPG for two people. You and a friend will describe a setting and then try and trick each other into saying specific phrases. All while pretending to be someone else. Hopefully someone much cooler, but I make no promises.",
+        "file": "/pdfs/Unphrased.pdf",
+        "logo": "/logos/unphrased.png",
+        "type": "TTRPG"
+    }
+]

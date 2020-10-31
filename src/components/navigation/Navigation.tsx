@@ -18,6 +18,7 @@ export default function Navigation({
             <ul className='page-links' hidden={condensed}>
                 <li><NavLink to="/about">About</NavLink></li>
                 <li><NavLink to="/writing">Writing</NavLink></li>
+                <li><NavLink to="/games">Games</NavLink></li>
             </ul>
         </div>
     );

@@ -1,0 +1,68 @@
+.games-container {
+    overflow-y: scroll;
+
+    .game-wrapper {
+        display: flex;
+
+        .games-list {
+            padding-right: 20px;
+            width: 33%;
+    
+            .type-section {
+                margin-top: 30px;
+                width: 100%;
+
+                .type-name {
+                    width: 100%;
+                    text-align: left;
+                    border-bottom: 1px solid #fff;
+                    line-height: 0.1em;
+                    margin: 10px 0 20px;
+                    font-size: 20px;
+                }
+                 
+                .type-name span {
+                    background:#3B3F45;
+                    padding:0 10px;
+                    margin-left: 10px;
+                }
+
+                .game {
+                    font-size: 24px;
+                }
+            }
+        }
+    
+        .game-details {
+            padding-left: 20px;
+            width: 60%;
+            border-left: 1px solid #fff;
+
+            .logo {
+                img {
+                    width: 100px;
+                    margin-left: -2px;
+                }
+            }
+
+            .title {
+                font-weight: 700;
+                font-size: 26px;
+            }
+
+            .download {
+                font-size: 20px;
+                font-weight: 500;
+
+                a {
+                    color: #fff;
+                    text-decoration: none;
+                }
+            
+                a:hover {
+                    color: #ccc;
+                }
+            }
+        }
+    }
+}
