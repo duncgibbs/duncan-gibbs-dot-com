@@ -21,8 +21,8 @@ export default function Writing({
         return posts.map((post, idx) => {
             const publishDate = new Date(post.publication_date);
             return [
-                <hr key={idx} />,
-                <div className='post' key={idx}>
+                <hr key={idx*2} />,
+                <div className='post' key={(idx*2)+1}>
                     <div className='title'>
                         <Link className='text-link' to={`${match.path}/${post.id}`}>{post.title}</Link>
                     </div>
