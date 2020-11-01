@@ -59,6 +59,7 @@
   "scripts": {
     "build": "webpack --config ./webpack.prod.js --mode production",
     "dev": "webpack-dev-server",
-    "watch": "webpack --config ./webpack.config.js --mode development"
+    "watch": "webpack --config ./webpack.config.js --mode development",
+    "deploy": "rm public/**/.DS_Store; aws s3 sync public s3://duncan-gibbs-dot-com --profile 'duncan-gibbs-dot-com'"
   }
 }
